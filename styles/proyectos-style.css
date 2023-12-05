@@ -217,3 +217,179 @@ header .contacto{
 footer{
     padding: 20px 40px;
 }
+
+
+
+@media (max-width: 768px) {
+    .menu-superior img {
+      display: none;
+    }
+    .menu-superior ul li a {
+      margin-left: 10px;
+      color: white;
+      text-decoration: none;
+      transition: 1s;
+      font-size: 0.7em;
+    }
+    .menu-superior ul li a:hover {
+      color: #f2f62b;
+      font-size: 0.8em;
+    }
+    /* -------------------------------------------------------------------------------- */
+    .first-view-proyectos h3{
+        font-size: 1.5em;
+        padding: 40px;
+        text-align: center;
+    }
+    .first-view-proyectos h4{
+        font-size: 1.1em;
+        padding: 20px;
+        margin-left: 15px;
+    }
+    .buildSync .grua{
+        width: 80%;
+    }
+    .buildSync .banner{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .first-view-proyectos p{
+        display: inline-block;
+        margin: 0;
+        padding: 20px;
+        width: 80%;
+        font-size: 1em;
+        vertical-align:top;
+    }
+    .first-view-proyectos .texto-final-build{
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    /* ------------------------------------------------------------------------------------ */
+    .second-view-proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-view-left{
+        width: 80%;    
+    }
+    .second-view-left h4{
+        display: flex;
+        font-size: 1.1em;
+        padding: 0;
+        margin-top: 40px;
+        margin-left: 10px;
+        color: white;
+    }
+    .second-view-left p{
+        color: white;
+        padding: 20px 10px;
+        font-size: 1em;
+        vertical-align:top;
+    }
+    .second-view-left img{
+        width: 90%;
+        margin: auto;
+    }
+    .second-view-right{
+        align-items: center;
+        width: 80%;
+    }
+    .second-view-right p{
+        color: white;
+        padding: 10px;
+        font-size: 1em;
+        vertical-align:top;
+    }
+    .second-view-right img{
+        width: 80%;
+    }
+    
+    /* ---------------------------------------------------------------------------------------- */
+
+    .third-view-proyectos{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .third-view-left{
+        width: 80%;
+    }
+    .third-view-left h4{
+        display: flex;
+        font-size: 1.1em;
+        padding: 0;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .third-view-left p{
+        padding: 20px;
+        font-size: 1em;
+        vertical-align:top;
+    }
+    .third-view-left img{
+        width: 80%;
+        margin: auto;
+    }
+    .third-view-right{
+        width: 80%;
+    }
+    .third-view-right p{
+        padding: 20px;
+        font-size: 1em;
+        vertical-align:top;
+        margin: auto;
+    }
+    .third-view-right img{
+        width: 80%;
+    }
+    .nota{
+        padding: 40px;
+        font-size: 0.5em;
+    }
+    /* ---------------------------------------------------------------------------------------- */
+    
+    .fourth-view {
+        flex-direction: column;
+        align-items: center;
+      }
+      .fourth-view .fourth-view-izquierdo {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px ;
+      }
+      .fourth-view .fourth-view-izquierdo h4 {
+        color: white;
+        font-size: 1.3em;
+      }
+      .fourth-view .fourth-view-izquierdo p {
+        margin-top: 40px;
+        color: white;
+        font-size: 0.8em;
+      }
+      .fourth-view .fourth-view-derecho {
+        width: 80%;
+        margin: 60px;
+      }
+      .fourth-view .fourth-view-derecho p {
+        color: white;
+        font-size: 0.8em;
+      }
+      .redes-footer {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .redes-footer img {
+        width: 30px;
+        margin-right: 20px;
+        transition: 1s;
+      }
+      footer {
+        font-size: 0.7em;
+        padding: 20px 40px;
+      }
+}

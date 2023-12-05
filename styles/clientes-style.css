@@ -162,7 +162,7 @@ footer{
 .slider .slider-frame ul{
     display: flex;
     padding: 0;
-    width: 600%;
+    width: 500%;
     margin: 50px auto 0;
 
     animation: slide 15s infinite alternate ease-in-out;
@@ -179,38 +179,127 @@ footer{
     0%{
         margin-left:  0%;
     }
-    10%{
+    20%{
         margin-left:  0%;
-    }
-    15%{
-        margin-left:  -100%;
     }
     25%{
         margin-left:  -100%;
     }
-    30%{
-        margin-left:  -200%;
+    35%{
+        margin-left:  -100%;
     }
     40%{
         margin-left:  -200%;
     }
-    45%{
-        margin-left:  -300%;
+    50%{
+        margin-left:  -200%;
     }
     55%{
         margin-left:  -300%;
     }
-    60%{
-        margin-left:  -400%;
+    65%{
+        margin-left:  -300%;
     }
-    75%{
+    70%{
         margin-left:  -400%;
-    }
-    80%{
-        margin-left:  -500%;
     }
     100%{
-        margin-left:  -500%;
+        margin-left:  -400%;
     }
 
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .menu-superior img {
+      display: none;
+    }
+    .menu-superior ul li a {
+      margin-left: 10px;
+      color: white;
+      text-decoration: none;
+      transition: 1s;
+      font-size: 0.7em;
+    }
+    .menu-superior ul li a:hover {
+      color: #f2f62b;
+      font-size: 0.8em;
+    }
+    /* -------------------------------------------------------------------------------- */
+    .first-view-clientes h3{
+        font-size: 1.5em;
+    }
+    .first-view-clientes p{
+        font-size: 1em;
+        margin: auto 20px;
+    }
+    .first-view-clientes a{
+            font-size: 1em;
+            width: 180px;
+            height: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+    }
+    .first-view-clientes a:hover{
+        scale: 105%;
+        background-color: white;
+        color: black;
+    }
+    /* --------------------------------------------------------------------------------------- */
+    .second-view-clientes h3{
+        color: white;
+        font-size: 1.1em;
+        padding: 60px 40px;
+    }
+    .organizaciones-clientes img{
+        max-height: 80px;
+    }
+    /* ---------------------------------------------------------------------------------------- */
+    .fourth-view {
+        flex-direction: column;
+        align-items: center;
+      }
+      .fourth-view .fourth-view-izquierdo {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px ;
+      }
+      .fourth-view .fourth-view-izquierdo h4 {
+        color: white;
+        font-size: 1.3em;
+      }
+      .fourth-view .fourth-view-izquierdo p {
+        margin-top: 40px;
+        color: white;
+        font-size: 0.8em;
+      }
+      .fourth-view .fourth-view-derecho {
+        width: 80%;
+        margin: 60px;
+      }
+      .fourth-view .fourth-view-derecho p {
+        color: white;
+        font-size: 0.8em;
+      }
+      .redes-footer {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .redes-footer img {
+        width: 30px;
+        margin-right: 20px;
+        transition: 1s;
+      }
+      footer {
+        font-size: 0.7em;
+        padding: 20px 40px;
+      }
 }
