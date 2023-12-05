@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F2F62B;
+}
+header .redes{
+    margin: 10px;
+}
+header .redes img, .contacto img{
+    width: 30px;
+    margin-right: 5px;
+}
+header .contacto{
+    float: right;
+}
+.menu-superior{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+.menu-superior img{
+    width: 200px;
+}
+.menu-superior ul{
+    list-style-type: none;
+}
+.menu-superior ul li{
+    float: left;
+}
+.menu-superior ul li a{
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+.menu-superior ul li a:hover{
+    color: #F2F62B;
+    font-size: 103%;
+}
+ .menu-superior .active{
+    color: #F2F62B;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.first-view-nosotros h3{
+    margin: 60px;
+    font-size: 2em;
+    text-align: center;
+}
+.first-view-nosotros p{
+    margin: 80px;
+    font-size: 1.2em;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+.second-view-nosotros{
+    background: url(/assets/img/fotos/estudiante.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding: 40px;
+}
+.second-view-nosotros h3{
+    color: white;
+    font-size: 2em;
+    margin: 40px;
+    text-align: center;
+}
+.second-view-nosotros .iconos-nosotros{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.second-view-nosotros .left-side-nosotros, .second-view-nosotros .right-side-nosotros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    min-width: 50%
+}
+.second-view-nosotros .left-side-nosotros span, .second-view-nosotros .right-side-nosotros span{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+.second-view-nosotros span img{
+    margin: 20px 40px 20px 0;
+}
+.tiempo-nosotros span{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+.tiempo-nosotros{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.third-view-nosotros p{
+    margin: 80px 60px;
+    font-size: 1.2em;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.fourth-view{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.fourth-view .fourth-view-izquierdo{
+    width: 50%;
+    margin: 60px;
+}
+.fourth-view .fourth-view-izquierdo h4{
+    color: white;
+    font-size: 1.6em;
+}
+.fourth-view .fourth-view-izquierdo p{
+    margin-top: 40px;
+    color: white;
+}
+.fourth-view .fourth-view-derecho{
+    width: 50%;
+    margin: 60px;
+}
+.fourth-view .fourth-view-derecho p{
+    color: white;
+}
+.redes-footer{
+    margin-top: 40px;
+}
+.redes-footer img{
+    width: 40px;
+    margin-right: 40px;
+    transition: 1s;
+}
+.redes-footer img:hover{
+    scale: 115%;
+}
+footer{
+    padding: 20px 40px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.slider .slider-frame{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.slider .slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    margin: 50px auto 0;
+
+    animation: slide 50s infinite alternate ease-in-out;
+}
+.slider .slider-frame ul li{
+    list-style: none;
+    width: 100%;
+}
+.slider .slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{
+        margin-left:  0%;
+    }
+    10%{
+        margin-left:  0%;
+    }
+    20%{
+        margin-left:  -100%;
+    }
+    30%{
+        margin-left:  -100%;
+    }
+    40%{
+        margin-left:  -200%;
+    }
+    50%{
+        margin-left:  -200%;
+    }
+    60%{
+        margin-left:  -300%;
+    }
+    70%{
+        margin-left:  -300%;
+    }
+    80%{
+        margin-left:  -400%;
+    }
+    90%{
+        margin-left:  -400%;
+    }
+
+}

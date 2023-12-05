@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F2F62B;
+}
+header .redes{
+    margin: 10px;
+}
+header .redes img, .contacto img{
+    width: 30px;
+    margin-right: 5px;
+}
+header .contacto{
+    float: right;
+}
+.menu-superior{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+.menu-superior img{
+    width: 200px;
+}
+.menu-superior ul{
+    list-style-type: none;
+}
+.menu-superior ul li{
+    float: left;
+}
+.menu-superior ul li a{
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+.menu-superior ul li a:hover{
+    color: #F2F62B;
+    font-size: 103%;
+}
+ .menu-superior .active{
+    color: #F2F62B;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.first-view-proyectos h3{
+    font-size: 2em;
+    padding: 40px;
+    text-align: center;
+}
+.first-view-proyectos .buildSync{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-view-proyectos h4{
+    font-size: 1.5em;
+    padding: 40px;
+}
+.buildSync .grua{
+    width: 45%;
+    height: 300px;
+    background: url(/assets/img/proyectos/coal-1626368.jpg) no-repeat;
+    background-size: cover;
+}
+.buildSync .banner{
+    width: 90%;
+    margin: 60px 0;
+}
+.first-view-proyectos p{
+    display: inline-block;
+    padding: 40px;
+    width: 40%;
+    font-size: 1.2em;
+    vertical-align:top;
+}
+.first-view-proyectos .texto-final-build{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.second-view-proyectos {
+    background-color: black;
+    display: flex;
+    padding-bottom: 40px;
+}
+.second-view-left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+}
+.second-view-left h4{
+    font-size: 1.5em;
+    padding: 40px;
+    color: white;
+}
+.second-view-left p{
+    color: white;
+    padding: 40px;
+    font-size: 1.2em;
+    vertical-align:top;
+}
+.second-view-left img{
+    width: 90%;
+    margin: auto;
+}
+.second-view-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.second-view-right p{
+    color: white;
+    padding: 40px;
+    font-size: 1.2em;
+    vertical-align:top;
+}
+.second-view-right img{
+    width: 90%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.third-view-proyectos{
+    display: flex;
+    margin-bottom: 40px;
+}
+.third-view-left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.third-view-left h4{
+    font-size: 1.5em;
+    padding: 40px;
+}
+.third-view-left p{
+    padding: 40px;
+    font-size: 1.2em;
+    vertical-align:top;
+}
+.third-view-left img{
+    width: 90%;
+    margin: auto;
+}
+.third-view-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.third-view-right p{
+    padding: 40px;
+    font-size: 1.2em;
+    vertical-align:top;
+    margin: auto;
+}
+.third-view-right img{
+    width: 90%;
+}
+.nota{
+    padding: 40px;
+    font-size: 0.7em;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+.fourth-view{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.fourth-view .fourth-view-izquierdo{
+    width: 50%;
+    margin: 60px;
+}
+.fourth-view .fourth-view-izquierdo h4{
+    color: white;
+    font-size: 1.6em;
+}
+.fourth-view .fourth-view-izquierdo p{
+    margin-top: 40px;
+    color: white;
+}
+.fourth-view .fourth-view-derecho{
+    width: 50%;
+    margin: 60px;
+}
+.fourth-view .fourth-view-derecho p{
+    color: white;
+}
+.redes-footer{
+    margin-top: 40px;
+}
+.redes-footer img{
+    width: 40px;
+    margin-right: 40px;
+    transition: 1s;
+}
+.redes-footer img:hover{
+    scale: 115%;
+}
+footer{
+    padding: 20px 40px;
+}
