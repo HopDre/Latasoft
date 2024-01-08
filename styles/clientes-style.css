@@ -64,6 +64,21 @@ header .contacto{
     font-size: 1.2em;
     text-align: center;
 }
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slider-content {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
 .first-view-clientes a{
         text-align: center;
         border-radius: 50px;
@@ -97,6 +112,24 @@ header .contacto{
     font-size: 1.3em;
     padding: 60px 40px;
 }
+.logo-container {
+    display: flex;
+    animation: moveLogos 40s ease-in infinite;
+    margin: 80px 0;
+  }
+  .logo-container img {
+    margin-right: 20px;
+    width: auto;
+    height: 100px; /* Espacio entre logos */
+  }
+  @keyframes moveLogos {
+    0%, 100% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-90%);
+    }
+  }
 .second-view-clientes .organizaciones-clientes{
     display: flex;
     flex-wrap: wrap;
@@ -152,69 +185,6 @@ footer{
 }
 
 /* ------------------------------------------------------------------------------------- */
-
-.slider .slider-frame{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin-bottom: 60px;
-}
-.slider .slider-frame ul{
-    display: flex;
-    padding: 0;
-    width: 500%;
-    margin: 50px auto 0;
-
-    animation: slide 15s infinite alternate ease-in-out;
-}
-.slider .slider-frame ul li{
-    list-style: none;
-    width: 100%;
-}
-.slider .slider-frame img{
-    width: 100%;
-}
-
-@keyframes slide{
-    0%{
-        margin-left:  0%;
-    }
-    20%{
-        margin-left:  0%;
-    }
-    25%{
-        margin-left:  -100%;
-    }
-    35%{
-        margin-left:  -100%;
-    }
-    40%{
-        margin-left:  -200%;
-    }
-    50%{
-        margin-left:  -200%;
-    }
-    55%{
-        margin-left:  -300%;
-    }
-    65%{
-        margin-left:  -300%;
-    }
-    70%{
-        margin-left:  -400%;
-    }
-    100%{
-        margin-left:  -400%;
-    }
-
-}
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
     .menu-superior img {
@@ -301,5 +271,19 @@ footer{
       footer {
         font-size: 0.7em;
         padding: 20px 40px;
+      }
+
+      .logo-container {
+        display: flex;
+        animation: moveLogos 30s ease-in infinite;
+        margin: 80px 0;
+      }
+      @keyframes moveLogos {
+        0%, 100% {
+          transform: translateX(0%);
+        }
+        50% {
+          transform: translateX(-620%);
+        }
       }
 }
