@@ -72,6 +72,7 @@ header .contacto {
     height: auto;
     overflow: hidden;
     position: relative;
+    background-color: #fff;
   }
 
   #slider {
