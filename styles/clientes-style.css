@@ -114,6 +114,21 @@ header .contacto {
   background-color: white;
   color: black;
 }
+#slider-container2 {
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+#slider2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.parrafo-dos{
+  margin-top: 80px;
+}
 
 /* --------------------------------------------------------------------------------------- */
 
