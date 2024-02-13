@@ -82,8 +82,8 @@ header .contacto{
 .left span{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    padding: 60px;
+    width: 100%;
+    padding: 10px;
 }
 .left span img, .left span h4, .left span p{
     color: white;
@@ -95,7 +95,7 @@ header .contacto{
     justify-content: center ;
 }
 .left .left-side-servicios span{
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -103,7 +103,7 @@ header .contacto{
     align-items: center;
 }
 .left .left-side-servicios span img{
-    width: 200px;
+    width: 100px;
 }
 .left h3{
     margin-top: 100px;
@@ -133,6 +133,12 @@ header .contacto{
     background-color: white;
     color: black;
 }
+
+.seccion-precios{
+    background-color: #F2F62B;
+    width: 100%;
+}
+
 
 /* ---------------------------------------------------------------------------------------------- */
 
