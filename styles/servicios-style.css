@@ -78,6 +78,7 @@ header .contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 .left span{
     display: flex;
@@ -105,14 +106,184 @@ header .contacto{
 .left .left-side-servicios span img{
     width: 100px;
 }
-.left h3{
-    margin-top: 100px;
+
+.seccion-precios{
+    background-color: #F2F62B;
+    width: 100%;
+    margin: 20px 0 80px 0;
+}
+.contenedores-planes{
+    display: flex;
+    margin: 0;
+    align-items: flex-start;
+}
+.contenedor{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.titulo-planes{
+    font-size: 2.5em;
+    padding: 10px 20px;
+    margin: 40px 0;
+}
+.contenedor h3{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.info-plan{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-plan img{
+    width: 60px;
+}
+.info-plan p{
+    color: white;
+    width: 80%;
+    font-size: 1.3em;
+}
+.precio h4{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+.precio{
+    margin: 20px auto;
+    background-color: #F2F62B;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.precio h5{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+.seccion-preciosDos{
+    background-color: black;
+    width: 100%;
+    margin: 20px 0 80px 0;
+    padding-bottom: 80px;
+}
+.seccion-preciosDos .contenedor{
+    background-color: #F2F62B;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.seccion-preciosDos .titulo-planes{
+    padding: 40px 20px;
+    color: white;
+}
+.seccion-preciosDos .contenedor h3{
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.seccion-preciosDos .info-plan p{
+    color: black;
+    width: 80%;
+    font-size: 1.3em;
+}
+
+.seccion-preciosDos .precio h4{
+    color: #F2F62B;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.seccion-preciosDos .precio{
+    margin: 20px auto;
+    background-color: black;
+    width: 50%;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+.seccion-preciosDos .precio h5{
+    color: #F2F62B;
+    text-align: right;
+    font-size: 0.9em;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.seccion-preciosTres{
+    background-color: #F2F62B;
+    width: 100%;
+    margin: 20px 0 80px 0;
+}
+.seccion-preciosTres .contenedor{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.seccion-preciosTres .titulo-planes{
+    padding: 0 20px;
+    color: black;
+}
+.seccion-preciosTres .info-plan p{
+    color: white;
+    width: 90%;
+    font-size: 1.3em;
+}
+.seccion-preciosTres .precio h4{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.seccion-preciosTres .precio{
+    margin: 20px auto;
+    background-color: #F2F62B;
+    width: 50%;
+    border-radius: 40px;
+}
+.seccion-preciosTres .precio h5{
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.cotizar{
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cotizar h3{
+    margin-top: 40px;
     width: auto;
     font-size: 3em;
     color: white;
     text-align: center;
 }
-.left a{
+.cotizar a{
     margin-top: 40px;
     text-align: center;
     border-radius: 50px;
@@ -128,17 +299,11 @@ header .contacto{
     align-items: center;
     margin-bottom: 80px;
 }
-.left a:hover{
+.cotizar a:hover{
     scale: 105%;
     background-color: white;
     color: black;
 }
-
-.seccion-precios{
-    background-color: #F2F62B;
-    width: 100%;
-}
-
 
 /* ---------------------------------------------------------------------------------------------- */
 
@@ -275,4 +440,100 @@ footer{
         font-size: 0.7em;
         padding: 20px 40px;
       }
+
+
+
+
+
+
+
+
+    .contenedores-planes{
+        flex-direction: column;
+    }
+    .contenedor{
+        flex-direction: column;
+        padding: 30px 10px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .titulo-planes{
+        font-size: 2em;
+        padding: 0;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .contenedor h3{
+        font-size: 1.5em;
+    }
+    .info-plan img{
+        width: 50px;
+    }
+    .info-plan p{
+        width: 80%;
+        font-size: 1em;
+    }
+    .precio h4{
+        font-size: 1.4em;
+    }
+    .precio h5{
+        font-size: 1em;
+    }
+    .seccion-preciosDos .contenedor{
+        padding: 30px 10px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .seccion-preciosDos .titulo-planes{
+        font-size: 2em;
+        padding: 20 0;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .seccion-preciosDos .contenedor h3{
+        font-size: 1.5em;
+    }
+    .seccion-preciosDos .info-plan p{
+        font-size: 1em;
+    }
+    
+    .seccion-preciosDos .precio h4{
+        font-size: 1.4em;
+    }
+    .seccion-preciosDos .precio h5{
+        font-size: 0.8em;
+    }
+    
+    .seccion-preciosTres .contenedor{
+        padding: 30px 10px;
+        width: 90%;
+    }
+    .seccion-preciosTres .titulo-planes{
+        padding: 0;
+    }
+    .seccion-preciosTres .info-plan p{
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    .seccion-preciosTres .precio h4{
+        font-size: 1.4em;
+    }
+    .seccion-preciosTres .precio h5{
+        font-size: 0.8em;
+    }
+
+
+    .cotizar{
+        padding: 20px;
+    }
+    .cotizar h3{
+        font-size: 2em;
+    }
+    .cotizar a{
+        font-size: 1.3em;
+        width: 200px;
+        height: 50px;
+    }
 }

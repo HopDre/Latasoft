@@ -3,6 +3,7 @@
     padding: 0;
     color: black;
     font-family: sans-serif;
+    text-decoration: none;
 }
 body{
     background-color: #F2F62B;
@@ -50,45 +51,88 @@ header .contacto{
 }
 
 /* --------------------------------------------------------------------------------------------- */
-
-.first-view-proyectos h3{
+.titulo{
     font-size: 2em;
-    padding: 40px;
+    width: 100%;
     text-align: center;
+    margin-top: 40px;
 }
-.first-view-proyectos .buildSync{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.parrafo-titulo{
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.first-view-proyectos{
+    background-color: black;
 }
 .first-view-proyectos h4{
-    font-size: 1.5em;
-    padding: 40px;
+    font-size: 1.8em;
+    padding: 20px 0 10px 20px;
+    color: white;
 }
-.buildSync .grua{
-    width: 45%;
-    height: 300px;
-    background: url(/assets/img/proyectos/coal-1626368.jpg) no-repeat;
-    background-size: cover;
-}
-.buildSync .banner{
-    width: 90%;
-    margin: 60px 0;
-}
-.first-view-proyectos p{
-    display: inline-block;
-    padding: 40px;
-    width: 40%;
-    font-size: 1.2em;
-    vertical-align:top;
-}
-.first-view-proyectos .texto-final-build{
-    margin-left: 30px;
+.first-view-proyectos .content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
-
+.first-view-proyectos .content p{
+    width: 60%;
+    margin-left: 20px;
+    color: white;
+    line-height: 25px;
+}
+.first-view-proyectos .content p b{
+    color: black;
+    background-color: #F2F62B;
+    padding: 1px;
+    border-radius: 5px;
+}
+.first-view-proyectos .content img{
+    width: 35%;
+    margin-right: 20px;
+}
+.second-view{
+    background-color: #F2F62B;
+}
+.second-view h4{
+    font-size: 1.8em;
+    color: black;
+    padding: 10px 0 20px 20px;
+}
+.second-view img{
+    width: 35%;
+    margin-right: 20px;
+}
+.second-view p{
+    color: black;
+    line-height: 25px;
+    margin-right: 20px;
+}
+.second-view p b{
+    color: #F2F62B;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
+}
+.second-view .content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.first-view-proyectos .content p{
+    width: 60%;
+    margin-left: 20px;
+}
+.first-view-proyectos .content img{
+    width: 35%;
+    margin-right: 20px;
+}
 /* ------------------------------------------------------------------------------------ */
 
 .second-view-proyectos {
