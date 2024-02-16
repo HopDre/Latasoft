@@ -191,6 +191,11 @@ header .contacto {
   margin-right: auto;
   display: block; /* Asegura que la imagen se muestre como un bloque */
 }
+.slide h3{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+}
 
 .info-button {
   position: absolute;
