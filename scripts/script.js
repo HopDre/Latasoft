@@ -11,7 +11,7 @@ function showSlides() {
   slider.style.transform = `translateX(${translateValue}%)`;
 }
 
-setInterval(showSlides, 3000); // Cambia la imagen cada 3 segundos (ajusta según sea necesario)
+setInterval(showSlides, 3000);
 
 
 const slider2 = document.getElementById('slider2');
@@ -27,4 +27,4 @@ function showSlides2() {
   slider2.style.transform = `translateX(${translateValue}%)`;
 }
 
-setInterval(showSlides2, 3000); // Cambia la imagen cada 3 segundos (ajusta según sea necesario)
+setInterval(showSlides2, 3000);
