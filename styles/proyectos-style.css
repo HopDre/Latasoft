@@ -360,47 +360,30 @@ footer {
   }
   .first-view-proyectos .content p {
     font-size: .8em;
+    width: 90%;
+    margin: 0;
   }
   .first-view-proyectos .content img {
-    margin-right: 20px;
+    width: 100%;
+    margin: 0;
   }
   .second-view {
     background-color: #f2f62b;
   }
   .second-view h4 {
-    font-size: 1.8em;
-    color: black;
-    padding: 10px 0 20px 20px;
+    font-size: 1.5em;
   }
   .second-view img {
-    width: 35%;
-    margin-right: 20px;
+    width: 100%;
+    margin: 0;
   }
   .second-view p {
-    color: black;
-    line-height: 25px;
-    margin-right: 20px;
-  }
-  .second-view p b {
-    color: #f2f62b;
-    background-color: black;
-    padding: 1px;
-    border-radius: 5px;
+    width: 90%;
+    margin: 0;
+    font-size: .8em;
   }
   .second-view .content {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-  .first-view-proyectos .content p {
-    width: 60%;
-    margin-left: 20px;
-  }
-  .first-view-proyectos .content img {
-    width: 35%;
-    margin-right: 20px;
+    flex-direction: column;
   }
   /* ------------------------------------------------------------------------------------ */
   .proveedores {
@@ -408,20 +391,20 @@ footer {
     padding-bottom: 80px;
   }
   .proveedores p {
-    color: white;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    padding: 40px 0;
+   font-size: .9em;
   }
   .imagenes-prov {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
   .imagenes-prov img {
-    max-width: 20%;
-    height: 60px;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .pucobre{
+    width: 100px;
+    height: 100px;
   }
   /* ---------------------------------------------------------------------------------------- */
   /* ---------------------------------------------------------------------------------------- */
@@ -463,7 +446,7 @@ footer {
   .info-button {
     position: absolute;
     top: 10px;
-    right: 100px;
+    right: 0px;
     background-color: black;
     padding: 5px 10px;
     border: none;
